@@ -2,6 +2,50 @@
     background-image: url(./img/Background.jpeg);
     @extend %alinearheader;
 }
+a.navbar-brand.text-light.active{
+    position: relative;
+    color: rgb(138, 231, 138) !important;
+    padding-left: 25px;
+}
+a.navbar-brand.text-light.active::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(221, 122, 208);
+    border-radius: 50%;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ordbtnheader{
+    margin-top: 15rem;
+}
+
+.ordenarnav{
+    padding-top: 14rem;
+}
+
+.ordenarnavopti{
+    padding-top: 11rem;
+}
+
+.ordenarnavso{
+    padding-top: 28rem;
+}
+
+.ordenarnavil{
+    padding-top: 14rem;
+}
+
+.ordenarnav29{
+    padding-top: 14rem;
+}
+
+.ordenarnavco{
+    padding-top: 29rem;
+}
 
 .optimistheader {
     background-image: url(./img/optimist/largada_optimist.png);

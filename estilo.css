@@ -16,6 +16,53 @@
   background-image: url(./img/Background.jpeg);
 }
 
+a.navbar-brand.text-light.active {
+  position: relative;
+  color: rgb(138, 231, 138) !important;
+  padding-left: 25px;
+}
+
+a.navbar-brand.text-light.active::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(221, 122, 208);
+  border-radius: 50%;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ordbtnheader {
+  margin-top: 15rem;
+}
+
+.ordenarnav {
+  padding-top: 14rem;
+}
+
+.ordenarnavopti {
+  padding-top: 11rem;
+}
+
+.ordenarnavso {
+  padding-top: 28rem;
+}
+
+.ordenarnavil {
+  padding-top: 14rem;
+}
+
+.ordenarnav29 {
+  padding-top: 14rem;
+}
+
+.ordenarnavco {
+  padding-top: 29rem;
+}
+
 .optimistheader {
   background-image: url(./img/optimist/largada_optimist.png);
 }
@@ -187,7 +234,7 @@ footer {
   margin-left: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .logoheader {
     width: 20rem;
     height: auto;
@@ -201,7 +248,22 @@ footer {
     width: 95%;
   }
   .ordenarnav {
-    padding-top: 17rem !important;
+    padding-top: 13rem !important;
+  }
+  .ordenarnavopti {
+    padding-top: 13rem;
+  }
+  .ordenarnavso {
+    padding-top: 28rem;
+  }
+  .ordenarnavil {
+    padding-top: 13rem;
+  }
+  .ordenarnav29 {
+    padding-top: 13rem;
+  }
+  .ordenarnavco {
+    padding-top: 28rem;
   }
   .navbackground {
     background-color: rgba(0, 0, 0, 0.7725490196);
@@ -269,7 +331,22 @@ footer {
 @media only screen and (min-width: 900px) {
   /*header*/
   .ordenarnav {
-    padding-top: 17rem !important;
+    padding-top: 13rem !important;
+  }
+  .ordenarnavopti {
+    padding-top: 13rem;
+  }
+  .ordenarnavso {
+    padding-top: 28rem;
+  }
+  .ordenarnavil {
+    padding-top: 13rem;
+  }
+  .ordenarnav29 {
+    padding-top: 13rem;
+  }
+  .ordenarnavco {
+    padding-top: 28rem;
   }
   /*Para el nav de ilca*/
   .navbackground {
@@ -361,6 +438,7 @@ body {
 .logowpp {
   width: 3rem;
   right: 0;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=estilo.css.map */

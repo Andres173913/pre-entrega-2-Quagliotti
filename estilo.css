@@ -97,7 +97,6 @@ a.navbar-brand.text-light.active::before {
 
 /*Estilo Main*/
 .Titulomain {
-  color: #b4dd61;
   text-align: center;
   font-weight: 600;
   font-size: 2rem;
@@ -291,6 +290,7 @@ footer {
     width: 30rem;
     border-radius: 1rem;
     margin-right: 5%;
+    height: 36rem;
   }
   .text_card {
     margin-top: 5%;
@@ -399,6 +399,7 @@ footer {
     width: 30rem;
     border-radius: 1rem;
     margin-right: 5%;
+    height: 36rem;
   }
   .text_card {
     margin-top: 5%;
@@ -439,6 +440,10 @@ body {
   width: 3rem;
   right: 0;
   border-radius: 50%;
+}
+
+.custom-delay {
+  animation-delay: 4s !important;
 }
 
 /*# sourceMappingURL=estilo.css.map */

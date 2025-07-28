@@ -4,21 +4,23 @@
 }
 a.navbar-brand.text-light.active{
     position: relative;
-    color: rgb(138, 231, 138) !important;
+    color: #052f6c !important;
     padding-left: 25px;
 }
+
 a.navbar-brand.text-light.active::before{
     content: '';
     display: block;
     width: 10px;
     height: 10px;
-    background-color: rgb(221, 122, 208);
+    background-color: #0a58ca;
     border-radius: 50%;
     position: absolute;
     left: 8px;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .ordbtnheader{
     margin-top: 15rem;
 }
@@ -70,13 +72,13 @@ a.navbar-brand.text-light.active::before{
 
 .tituloheader {
     margin-left: 1rem;
-    color: #fc2323;
+    color: #c70909;
     font-size: 1.5rem;
-    text-decoration: underline;
-    max-width: 30rem;
+    background-color: #0dcaf0;
+    border-radius: .5rem;
+    max-width: 25rem;
 }
 
-/*Para el nav de ilca*/
 .navbackground {
     background-color: $opacidad;
 }

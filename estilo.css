@@ -18,7 +18,7 @@
 
 a.navbar-brand.text-light.active {
   position: relative;
-  color: rgb(138, 231, 138) !important;
+  color: #052f6c !important;
   padding-left: 25px;
 }
 
@@ -27,7 +27,7 @@ a.navbar-brand.text-light.active::before {
   display: block;
   width: 10px;
   height: 10px;
-  background-color: rgb(221, 122, 208);
+  background-color: #0a58ca;
   border-radius: 50%;
   position: absolute;
   left: 8px;
@@ -84,15 +84,15 @@ a.navbar-brand.text-light.active::before {
 
 .tituloheader {
   margin-left: 1rem;
-  color: #fc2323;
+  color: #c70909;
   font-size: 1.5rem;
-  text-decoration: underline;
-  max-width: 30rem;
+  background-color: #0dcaf0;
+  border-radius: 0.5rem;
+  max-width: 25rem;
 }
 
-/*Para el nav de ilca*/
 .navbackground {
-  background-color: rgba(0, 0, 0, 0.7725490196);
+  background-color: rgba(233, 146, 12, 0.82);
 }
 
 /*Estilo Main*/
@@ -141,6 +141,10 @@ a.navbar-brand.text-light.active::before {
   margin-top: 5%;
 }
 
+.custom {
+  color: #a10d8d !important;
+}
+
 .parrafo_card {
   text-align: justify;
   color: #0000ff;
@@ -177,7 +181,7 @@ a.navbar-brand.text-light.active::before {
 }
 
 .card_contactos {
-  background-color: #00ffff;
+  background-color: #17caca;
   width: 18rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -235,15 +239,14 @@ footer {
 
 @media only screen and (min-width: 500px) {
   .logoheader {
-    width: 20rem;
+    width: 25rem;
     height: auto;
     object-fit: cover;
   }
   .tituloheader {
     margin-left: 1rem;
-    color: #fc2323;
-    font-size: 2rem;
-    text-decoration: underline;
+    color: #c70909;
+    font-size: 1.5rem;
     width: 95%;
   }
   .ordenarnav {
@@ -265,7 +268,7 @@ footer {
     padding-top: 28rem;
   }
   .navbackground {
-    background-color: rgba(0, 0, 0, 0.7725490196);
+    background-color: rgba(233, 146, 12, 0.82);
   }
   /*main*/
   .Titulomain {
@@ -286,7 +289,7 @@ footer {
     margin-right: 5%;
   }
   .card_contactos {
-    background-color: #00ffff;
+    background-color: #17caca;
     width: 30rem;
     border-radius: 1rem;
     margin-right: 5%;
@@ -350,7 +353,7 @@ footer {
   }
   /*Para el nav de ilca*/
   .navbackground {
-    background-color: rgba(0, 0, 0, 0.7725490196);
+    background-color: rgba(233, 146, 12, 0.82);
   }
   /*Main*/
   .ordenarcards {
@@ -395,7 +398,7 @@ footer {
     margin-right: 5%;
   }
   .card_contactos {
-    background-color: #00ffff;
+    background-color: #17caca;
     width: 30rem;
     border-radius: 1rem;
     margin-right: 5%;

@@ -101,6 +101,15 @@ a.navbar-brand.text-light.active::before {
   font-weight: 600;
   font-size: 2rem;
   text-decoration: underline;
+  margin: 1rem;
+}
+
+.titulomainco {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration: underline;
+  margin: 1rem;
 }
 
 /*aplico grid a las cards*/
@@ -528,6 +537,10 @@ body {
 
 .custom-delay {
   animation-delay: 4s !important;
+}
+
+.custom-delay1 {
+  animation-delay: 1.5s !important;
 }
 
 /*# sourceMappingURL=estilo.css.map */

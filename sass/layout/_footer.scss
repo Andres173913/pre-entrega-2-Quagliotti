@@ -2,10 +2,50 @@
 /*Tamaño y color footer*/
 footer {
     background-color: #000000;
-    height: 45vh;
+    height: 60vh;
+}
+
+.logo_bq {
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.titulofooter {
+    max-width: 8rem;
+    font-size: 1rem;
+    color: #00ffff;
+    margin-left: 2rem;
+}
+
+.nav_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulonav {
+    color: $colorblanco;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.fs-custom {
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-left: 0.5rem;
 }
 
 /*Logos redes sociales*/
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
 .logotipofooter {
     width: 2rem;
     height: auto;
@@ -17,12 +57,13 @@ footer {
     color: $colorblanco;
     text-align: center;
     text-decoration: underline;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .ordenarfooter {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 0.5rem;
 }
 
@@ -32,6 +73,7 @@ footer {
 
 .link_footer {
     color: $colorblanco;
-    font-size: 1.2rem;
-    margin-left: 1rem;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.8rem
 }

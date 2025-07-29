@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Tu tienda de equipamiento de vela en Argentina. Velas, cabos, ropa y accesorios de primeras marcas. ¡Navega mejor con nosotros!">
+        content="Bienvenido a tu tienda de equipamiento de vela en Argentina. Velas, cabos, ropa y accesorios de primeras marcas. ¡Navega mejor con nosotros!">
     <meta name="keywords"
-        content="equipamiento vela, accesorios velero, tienda nautica, cabos nauticos, velas para barcos, ropa nautica, instrumentacion marina, electronica naval, fondeo, jarcias, chalecos salvavidas, guantes navegacion, embarcaciones a vela, repuestos nauticos, mantenimiento veleros, veleros en venta, tienda online nautica, Argentina, navegacion a vela, elementos nauticos, equipamiento regatas, vela ligera, crucero, indumentaria navegacion, optimist, ILCA, 29er">
+        content="equipamiento vela, accesorios velero, tienda nautica, velas para barcos, embarcaciones a vela, repuestos nauticos, navegacion a vela, elementos nauticos, equipamiento regatas, vela ligera, indumentaria navegacion, optimist, ILCA, 29er">
     <!--Nombre Pestaña-->
     <title>BQuick Sailing Equipment</title>
     <!--Logo Pestaña-->
@@ -28,6 +28,7 @@
 </head>
 
 <body>
+    <!--Header-->
     <header class="indexheader">
         <img class="logoheader" src="./img/Bquick_ovalo.png" alt="BQuick">
         <h1 class="tituloheader">Diseñanamos y fabricamos piezas nauticas de alta calidad</h1>
@@ -49,10 +50,10 @@
             </nav>
         </div>
     </header>
-
+    <!--Main-->
     <main>
         <h3
-            class="Titulomain mt-3 bg-danger-subtle text-danger animate__animated animate__bounce animate__slower animate__infinite">
+            class="Titulomain mt-5 bg-danger-subtle text-danger animate__animated animate__bounce animate__slower animate__infinite">
             Nuestras Ofertas</h3>
         <div class="ordenarcards">
             <!--Tarjeta n°1-->
@@ -223,26 +224,48 @@
             </div>
         </div>
     </main>
-
+    <!--Footer-->
     <footer>
         <div class="ordenarfooter">
-            <div class="ordenar_logos">
-                <a href="http://www.instagram.com/bq.sailing" target="_blank"><img class="logotipofooter"
-                        src="./img/Logo_insta.png" alt="Instagram"></a>
-                <p class="link_footer">@bq.sailing</p>
-            </div>
-            <div class="ordenar_logos">
-                <img class="logotipofooter" src="./img/Logo_facebook.png" alt="Facebook">
-                <p class="link_footer">@bq.sailing</p>
-            </div>
-            <div class="ordenar_logos">
-                <img class="logotipofooter" src="./img/Logo_X.webp" alt="X">
-                <p class="link_footer">@bq.sailing</p>
-            </div>
+            <section>
+                <img class="logo_bq" src="./img/Bquick_ovalo.png" alt="BQuick">
+                <h1 class="titulofooter">Diseñanamos y fabricamos piezas nauticas de alta calidad</h1>
+            </section>
+            <section class="nav_footer">
+                <h3 class="titulonav">Navegacion</h3>
+                <div class="links_nav">
+                    <a class="text-white fs-custom" href="index.html">Inicio</a>
+                    <a class="text-white fs-custom" href="./pages/sobrenosotros.html">Sobre Nosotros</a>
+                    <a class="text-white fs-custom" href="./pages/optimist.html">Optimist</a>
+                    <a class="text-white fs-custom" href="./pages/ilca.html">ILCA</a>
+                    <a class="text-white fs-custom" href="./pages/29er.html">29er</a>
+                    <a class="text-white fs-custom" href="./pages/contacto.html">Contactos</a>
+                </div>
+            </section>
+            <section class="redes">
+                <h3 class="titulonav">Nuestras Redes</h3>
+                <!--Instagram-->
+                <div class="ordenar_logos">
+                    <a href="http://www.instagram.com/bq.sailing" target="_blank" rel="noopener"><img
+                            class="logotipofooter" src="./img/Logo_insta.png" alt="Instagram"></a>
+                    <p class="link_footer">@bq.sailing</p>
+                </div>
+                <!--Faceboock-->
+                <div class="ordenar_logos">
+                    <img class="logotipofooter" src="./img/Logo_facebook.png" alt="Facebook">
+                    <p class="link_footer">bq.sailing</p>
+                </div>
+                <!--X-->
+                <div class="ordenar_logos">
+                    <img class="logotipofooter" src="./img/Logo_X.webp" alt="X">
+                    <p class="link_footer">@bq.sailing</p>
+                </div>
+            </section>
         </div>
-        <a href="https://wa.me/número" target="_blank"><img class="logowpp position-fixed bottom-0 "
+        <!--Whatsapp-->
+        <a href="https://wa.me/número" target="_blank" rel="noopener"><img class="logowpp position-fixed bottom-0 "
                 src="./img/Logo_whatsapp.png" alt="WhatsApp"></a>
-        <p class="parrafo_footer">Todos los derechos reservados</p>
+        <p class="parrafo_footer">&reg 2025 - Todos los derechos reservados</p>
     </footer>
     <!--boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

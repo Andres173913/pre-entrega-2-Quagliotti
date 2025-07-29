@@ -36,7 +36,7 @@ a.navbar-brand.text-light.active::before {
 }
 
 .ordbtnheader {
-  margin-top: 14rem;
+  margin-top: 10rem;
 }
 
 .ordenarnav {
@@ -48,7 +48,7 @@ a.navbar-brand.text-light.active::before {
 }
 
 .ordenarnavso {
-  padding-top: 27rem;
+  padding-top: 22rem;
 }
 
 .ordenarnavil {
@@ -60,7 +60,7 @@ a.navbar-brand.text-light.active::before {
 }
 
 .ordenarnavco {
-  padding-top: 29rem;
+  padding-top: 22rem;
 }
 
 .optimistheader {

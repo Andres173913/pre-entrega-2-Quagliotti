@@ -1,5 +1,6 @@
  @import "./utilidades/variables";
  @import "./utilidades/extends";
+ @import "./utilidades/mixins";
  @import "./layout/header";
  @import "./layout/main";
  @import "./layout/footer";
@@ -34,6 +35,6 @@
      animation-delay: 4s !important;
  }
 
- .custom-delay1{
-    animation-delay: 1.5s !important;
+ .custom-delay1 {
+     animation-delay: 1.5s !important;
  }

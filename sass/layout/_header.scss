@@ -2,13 +2,14 @@
     background-image: url(./img/Background.jpeg);
     @extend %alinearheader;
 }
-a.navbar-brand.text-light.active{
+
+a.navbar-brand.text-light.active {
     position: relative;
     color: #052f6c !important;
     padding-left: 25px;
 }
 
-a.navbar-brand.text-light.active::before{
+a.navbar-brand.text-light.active::before {
     content: '';
     display: block;
     width: 10px;
@@ -21,47 +22,48 @@ a.navbar-brand.text-light.active::before{
     transform: translateY(-50%);
 }
 
-.ordbtnheader{
+.ordbtnheader {
     margin-top: 10rem;
 }
 
-.ordenarnav{
-    padding-top: 11rem;
+.ordenarnav {
+    @include espacionav (11rem);
 }
 
-.ordenarnavopti{
-    padding-top: 11rem;
+.ordenarnavopti {
+    @include espacionav (11rem);
 }
 
-.ordenarnavso{
-    padding-top: 22rem;
+.ordenarnavso {
+    @include espacionav (22rem);
 }
 
-.ordenarnavil{
-    padding-top: 11rem;
+.ordenarnavil {
+    @include espacionav (11rem);
 }
 
-.ordenarnav29{
-    padding-top: 11rem;
+.ordenarnav29 {
+    @include espacionav (11rem);
 }
 
-.ordenarnavco{
-    padding-top: 22rem;
+.ordenarnavco {
+    @include espacionav (22rem);
 }
 
 .optimistheader {
     background-image: url(./img/optimist/largada_optimist.png);
-   @extend %alinearheader;
+    @extend %alinearheader;
 }
 
 .ilcaheader {
     background-image: url(./img/ilca/background.jpeg);
-   @extend %alinearheader;
+    @extend %alinearheader;
 }
+
 /*29er*/
-.erheader{
+.erheader {
     background-image: url(./img/29er/background.jpeg);
-   @extend %alinearheader;
+    @extend %alinearheader;
 }
 
 /*Logo Header*/

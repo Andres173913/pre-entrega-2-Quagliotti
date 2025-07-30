@@ -15,14 +15,12 @@ footer {
 .titulofooter {
     max-width: 8rem;
     font-size: 1rem;
-    color: #00ffff;
+    color: $colorceleste;
     margin-left: 2rem;
 }
 
 .nav_footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex (flex, column, center);
 }
 
 .titulonav {
@@ -40,9 +38,7 @@ footer {
 /*Logos redes sociales*/
 
 .redes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex (flex, column, center);
     margin-top: 0.5rem;
 }
 
@@ -61,9 +57,7 @@ footer {
 }
 
 .ordenarfooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex (flex, column, center);
     margin-top: 0.5rem;
 }
 

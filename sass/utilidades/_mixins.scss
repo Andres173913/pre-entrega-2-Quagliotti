@@ -1,0 +1,19 @@
+@mixin espacionav ($paddingtop) {
+    padding-top: $paddingtop;
+}
+
+@mixin grid ($display, $columns, $espacio, $justify, $gap) {
+    display: $display;
+    /*separo en 2 columnas iguales*/
+    grid-template-columns: repeat($columns, $espacio);
+    /*las alineo al centro*/
+    justify-items: $justify;
+    /*separo filas*/
+    row-gap: $gap;
+}
+
+@mixin flex ($display, $direction, $aling) {
+    display: $display;
+    flex-direction: $direction;
+    align-items: $aling;
+}

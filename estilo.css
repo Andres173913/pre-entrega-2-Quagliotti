@@ -115,17 +115,18 @@ a.navbar-brand.text-light.active::before {
 /*aplico grid a las cards*/
 .ordenarcards {
   display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
+  /*separo en 2 columnas iguales*/
+  grid-template-columns: repeat(1, 1);
   /*las alineo al centro*/
-  row-gap: 20px;
+  justify-items: center;
   /*separo filas*/
+  row-gap: 20px;
 }
 
 /*Tamaño y color de las cards*/
 .cards {
   max-width: 25rem;
-  background-color: rgb(127, 255, 234);
+  background-color: #7fffea;
   border-radius: 1rem;
 }
 
@@ -300,7 +301,7 @@ footer {
     width: 95%;
   }
   .ordenarnav {
-    padding-top: 16rem !important;
+    padding-top: 16rem;
   }
   .ordenarnavopti {
     padding-top: 16rem;
@@ -363,7 +364,7 @@ footer {
   }
   /*footer*/
   footer {
-    height: 40vh;
+    height: 35vh;
     margin-top: 3rem;
   }
   .ordenarfooter {
@@ -422,13 +423,13 @@ footer {
 @media only screen and (min-width: 900px) {
   /*header*/
   .ordenarnav {
-    padding-top: 16rem !important;
+    padding-top: 16rem;
   }
   .ordenarnavopti {
     padding-top: 16rem;
   }
   .ordenarnavso {
-    padding-top: 27rem;
+    padding-top: 26rem;
   }
   .ordenarnavil {
     padding-top: 16rem;
@@ -437,7 +438,7 @@ footer {
     padding-top: 16rem;
   }
   .ordenarnavco {
-    padding-top: 27rem;
+    padding-top: 26rem;
   }
   /*Para el nav de ilca*/
   .navbackground {
@@ -446,12 +447,12 @@ footer {
   /*Main*/
   .ordenarcards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     /*separo en 2 columnas iguales*/
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
     /*las alineo al centro*/
-    row-gap: 20px;
+    justify-items: center;
     /*separo filas*/
+    row-gap: 20px;
   }
   .cards img {
     margin-top: 1%;
@@ -504,11 +505,69 @@ footer {
   /*cards optimist*/
   .ord_cards_optimist {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     /*separo en 2 columnas iguales*/
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
     /*las alineo al centro*/
+    justify-items: center;
+    /*separo filas*/
     row-gap: 20px;
+  }
+  /*footer*/
+  footer {
+    height: 40vh;
+    margin-top: 3rem;
+  }
+  .ordenarfooter {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 0rem;
+  }
+  .logo_bq {
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+  }
+  .titulofooter {
+    max-width: 8rem;
+    font-size: 1rem;
+    color: #00ffff;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .nav_footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .titulonav {
+    color: #f5f5f5;
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+  .fs-custom {
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .links_nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .ordenar_logos {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  .link_footer {
+    color: #f5f5f5;
+    font-size: 1rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 /*Estilos Generales*/

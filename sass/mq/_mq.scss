@@ -14,27 +14,27 @@
     }
 
     .ordenarnav {
-        padding-top: 16rem !important;
+        @include espacionav (16rem);
     }
 
     .ordenarnavopti {
-        padding-top: 16rem;
+        @include espacionav (16rem);
     }
 
     .ordenarnavso {
-        padding-top: 26rem;
+        @include espacionav (26rem);
     }
 
     .ordenarnavil {
-        padding-top: 16rem;
+        @include espacionav (16rem);
     }
 
     .ordenarnav29 {
-        padding-top: 16rem;
+        @include espacionav (16rem);
     }
 
     .ordenarnavco {
-        padding-top: 26rem;
+        @include espacionav (26rem);
     }
 
     .navbackground {
@@ -92,7 +92,7 @@
 
     /*footer*/
     footer {
-        height: 40vh;
+        height: 35vh;
         margin-top: 3rem;
     }
 
@@ -112,7 +112,7 @@
     .titulofooter {
         max-width: 8rem;
         font-size: 1rem;
-        color: #00ffff;
+        color: $colorceleste;
         margin-left: 2rem;
         margin-top: 1rem;
     }
@@ -154,9 +154,7 @@
     }
 
     .redes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex (flex, column, center);
     }
 }
 
@@ -165,27 +163,27 @@
     /*header*/
 
     .ordenarnav {
-        padding-top: 16rem !important;
+        @include espacionav (16rem);
     }
 
     .ordenarnavopti {
-        padding-top: 16rem;
+        @include espacionav (16rem);
     }
 
     .ordenarnavso {
-        padding-top: 27rem;
+        @include espacionav (26rem);
     }
 
     .ordenarnavil {
-        padding-top: 16rem;
+        @include espacionav (16rem);
     }
 
     .ordenarnav29 {
-        padding-top: 16rem;
+        @include espacionav (16rem);
     }
 
     .ordenarnavco {
-        padding-top: 27rem;
+        @include espacionav (26rem);
     }
 
     /*Para el nav de ilca*/
@@ -195,13 +193,7 @@
 
     /*Main*/
     .ordenarcards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /*separo en 2 columnas iguales*/
-        justify-items: center;
-        /*las alineo al centro*/
-        row-gap: 20px;
-        /*separo filas*/
+        @include grid (grid, 2, 1fr, center, 20px);
     }
 
     .cards img {
@@ -265,11 +257,73 @@
 
     /*cards optimist*/
     .ord_cards_optimist {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /*separo en 2 columnas iguales*/
-        justify-items: center;
-        /*las alineo al centro*/
-        row-gap: 20px;
+        @include grid (grid, 2, 1fr, center, 20px);
+    }
+
+    /*footer*/
+    footer {
+        height: 40vh;
+        margin-top: 3rem;
+    }
+
+    .ordenarfooter {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+        margin-top: 0rem;
+    }
+
+    .logo_bq {
+        width: 10rem;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .titulofooter {
+        max-width: 8rem;
+        font-size: 1rem;
+        color: $colorceleste;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .nav_footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .titulonav {
+        color: $colorblanco;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+
+    .fs-custom {
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+
+    .links_nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .ordenar_logos {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .link_footer {
+        color: $colorblanco;
+        font-size: 1rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+    .redes {
+        @include flex (flex, column, center);
     }
 }

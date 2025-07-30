@@ -8,8 +8,8 @@
     margin: 1rem;
 }
 
-.titulomainco{
-        text-align: center;
+.titulomainco {
+    text-align: center;
     font-weight: 600;
     font-size: 2rem;
     text-decoration: underline;
@@ -18,22 +18,17 @@
 
 /*aplico grid a las cards*/
 .ordenarcards {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    /*las alineo al centro*/
-    row-gap: 20px;
-    /*separo filas*/
+    @include grid (grid, 1, 1, center, 20px);
 }
 
 /*Tamaño y color de las cards*/
 .cards {
     max-width: 25rem;
-    background-color: rgb(127, 255, 234);
+    background-color: #7fffea;
     border-radius: 1rem;
 }
 
-.card_igualar{
+.card_igualar {
     height: 25rem;
     object-fit: cover;
     max-width: 25rem;
@@ -53,7 +48,8 @@
     font-size: 1.5rem;
     margin-top: 5%;
 }
-.custom{
+
+.custom {
     color: #a10d8d !important;
 }
 

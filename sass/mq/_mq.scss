@@ -56,8 +56,8 @@
 
     /*Card de pages contactos*/
     .ordcontactos {
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
         padding-top: 1rem;
         margin-left: 5%;
         margin-right: 5%;
@@ -92,7 +92,7 @@
 
     /*footer*/
     footer {
-        height: 35vh;
+        height: 40vh;
         margin-top: 3rem;
     }
 

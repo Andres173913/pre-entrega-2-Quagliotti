@@ -90,6 +90,27 @@
         /*las alineo al centro*/
     }
 
+    /*pagina sobre nosotros*/
+    .ordnosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .imgnosotros1 {
+        max-width: 18rem;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .imgnosotros2 {
+        max-width: 20rem;
+        height: auto;
+        margin-top: 3rem;
+        object-fit: cover;
+    }
+
     /*footer*/
     footer {
         height: 40vh;
@@ -259,6 +280,28 @@
     .ord_cards_optimist {
         @include grid (grid, 2, 1fr, center, 20px);
     }
+
+    /*pagina sobre nosotros*/
+    .ordnosotros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .imgnosotros1 {
+        max-width: 20rem;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .imgnosotros2 {
+        max-width: 25rem;
+        height: auto;
+        margin-top: 0rem;
+        object-fit: cover;
+    }
+
 
     /*footer*/
     footer {
